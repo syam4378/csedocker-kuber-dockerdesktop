@@ -15,5 +15,6 @@ spec:
       containers:
       - name: springboot-container
         image: syampraveenl7/csekub:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8085
